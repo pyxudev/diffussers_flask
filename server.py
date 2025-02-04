@@ -14,7 +14,7 @@ def generate():
     
     # Local Only + CPU
     device = 'cpu'    
-    model_id = r"C:\Users\1047281\AppData\Local\Diffusion\app\anything"
+    model_id = r"<model_path>"
     pipe = DiffusionPipeline.from_pretrained(model_id, local_files_only=True)
 
     # Interenet + GPU
